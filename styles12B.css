@@ -1,0 +1,211 @@
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+header 	{
+  text-align: left;
+	  width: 100%;
+	}
+	.navbar  {
+  float: left;
+  color: #f2f2f2;
+  text-align: left;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: white;
+  width: 100%;
+	}
+	#mySidenav a {
+ position: absolute;
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+#mySidenav a:hover {
+  left: 0;
+  }
+  #Kauppa {
+  top: 200px;
+  background-color: #04AA6D;
+}
+
+#Video {
+  top: 80px;
+  background-color: #2196F3;
+}
+
+#Video2 {
+  top: 20px;
+  background-color: #f44336;
+ 
+}
+
+
+	footer {
+		text-align: center;
+	  width: 100%;
+	  background-color: white;
+	  position:fixed;
+    bottom: 0;
+	font-size: 1px;
+	   
+	}	
+	.wrap{
+    margin-bottom: 0;
+}
+
+.resize {
+    width: 550px;
+    height: auto;
+	float:left;
+}
+table {
+    color: black;
+}
+section {
+	text-align: center;
+	padding: 0px;
+	}
+	p {
+		color: black;
+		line-height : 20px;
+		text-align: center;
+			}
+img {
+	max-width: 100%;
+  height: auto;
+
+ margin-left: auto;
+  margin-right: auto;
+
+
+	}
+	figcaption {
+		text-align: left;
+		
+	
+		}
+
+	#suomalaiset {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#suomalaiset td, #suomalaiset th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#suomalaiset tr:nth-child(even){background-color: lightgrey;}
+
+#suomalaiset tr:hover {background-color: #ddd;}
+
+#suomalaiset th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #40c4ff ;
+  color: white;
+}
+
+img {
+  vertical-align: middle;
+}
+
+
+.container {
+  position: relative;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.cursor {
+  cursor: pointer;
+}
+
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.caption-container {
+  text-align: center;
+  background-color: white;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+h2 {
+		color: black;
+		line-height : 20px;
+		text-align: left;
+		
+			}
